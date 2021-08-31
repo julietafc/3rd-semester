@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>Movies</li>
+        <li>Actors</li>
+      </ul>
+    </header>
+    <main>
+      <h1>THE ACTORS</h1>
+      <!-- <section class="index">
+        <ol></ol>
+      </section> -->
+      <div id="actorsList"></div>
+    </main>
+    <div class="modalWrapper hidden">
+    <div id="infoModal">
+      <h2 class="fullname">Name</h2>
+      <p class="movie">Movie</p>
+    </div>
+  </div>
+
+  </div>
+    <template id="actorCard">
+      <article class="actor">
+        <h2 class="fullname">Name</h2>
+        <p class="movie">Movie</p>
+      </article>
+    </template>
+  </body>
+  <script src="js/script.js"></script>
+</html>
